@@ -1,0 +1,600 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: 0;
+  font-family: "Montserrat";
+}
+
+:root {
+  --main-blue: #005380;
+  --main-orange: #f1900e;
+}
+
+body {
+  background-color: var(--main-blue);
+}
+
+.main-principal {
+  background-image: url("BG\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.main {
+  padding: 10px 180px;
+  display: flex;
+  align-items: center;
+}
+
+.content-main-img img {
+  width: 26rem;
+}
+
+.content-main-text h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.content-main-text p {
+  font-size: 22px;
+  color: white;
+  width: 90%;
+  font-weight: 300;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 60%;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 18px;
+  color: var(--main-blue);
+  font-weight: bold;
+  margin: 10px;
+}
+
+.content-info {
+  padding: 10px 180px;
+  text-align: center;
+}
+
+.content-info h1 {
+  color: white;
+  width: 50%;
+  margin: 50px auto;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.content-info-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.content-info-child p {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.content-info-child h2 {
+  font-size: 50px;
+  color: white;
+}
+
+.content-info-child-text1,
+.content-info-child-text2 {
+  width: 35%;
+}
+
+.content-people {
+  padding: 10px 60px;
+  text-align: center;
+}
+
+.content-people h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.content-people img {
+  margin: 10px;
+  width: 220px;
+  height: 330px;
+}
+
+.curriculum {
+  text-align: center;
+  font-size: 25px;
+  margin: 30px;
+  color: white;
+}
+
+.curriculum-container {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-left: 70px;
+  font-weight: 300;
+}
+
+.curriculum-table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.curriculum-table {
+  padding: 10px;
+  width: 50%;
+}
+
+.curriculum-table2 {
+  padding: 10px;
+  width: 50%;
+}
+
+.curriculum-itens {
+  margin-bottom: 30px;
+}
+
+.curriculum-itens i {
+  margin-right: 5px;
+}
+
+.curriculum-itens img {
+  margin-bottom: 20px;
+}
+
+.about-fafiltec {
+  background-color: #f4f4f4;
+  padding: 60px;
+}
+
+.about-fafiltec-title {
+  text-align: center;
+  color: var(--main-blue);
+  width: 80%;
+  margin: 0 auto 40px;
+}
+
+.about-fafiltec-text {
+  text-align: center;
+  color: var(--main-blue);
+}
+
+.about-fafiltec-text h1 {
+  font-weight: 300;
+  width: 60%;
+  margin: 0 auto 30px;
+}
+
+.about-fafiltec-table {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.about-fafiltec-table p {
+  width: 20%;
+  color: var(--main-blue);
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px;
+}
+
+/*FORM*/
+.form-subscribe {
+  background-color: var(--blue);
+  padding: 23px;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px auto;
+  width: 60%;
+}
+
+.info-matriz2 {
+  background-color: var(--blue);
+  padding: 23px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form input {
+  background-color: var(--blue);
+  border: 1px solid #fff;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+input:focus {
+  border: 3px solid var(--orange);
+}
+
+#name::placeholder {
+  color: #fff;
+}
+
+#document::placeholder {
+  color: #fff;
+}
+
+#your_email::placeholder {
+  color: #fff;
+}
+
+#mobile::placeholder {
+  color: #fff;
+}
+
+#nacionality::placeholder {
+  color: #fff;
+}
+
+#password::placeholder {
+  color: #fff;
+}
+
+#confirm_password::placeholder {
+  color: #fff;
+}
+
+#birthdate::placeholder {
+  color: #fff;
+}
+
+option {
+  background-color: #d3d3d3;
+  color: var(--orange);
+  font-weight: 700;
+}
+
+form select {
+  background-color: var(--blue);
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.register {
+  margin: 20px;
+  border: none;
+  background-color: var(--main-orange);
+  cursor: pointer;
+}
+
+.register:hover {
+  transform: scale(1.05);
+  transition: all 0.5s;
+  background-color: #ff8b38;
+}
+
+.form-checkbox {
+  margin-top: 1px;
+  position: relative;
+  color: white;
+  font-size: 1rem;
+}
+
+.form-checkbox a {
+  color: var(--main-orange);
+}
+
+.form-checkbox a:hover {
+  color: #ffa15f;
+}
+
+.form-checkbox > label > p {
+  text-align: left;
+  margin-left: 35px;
+}
+
+.form-checkbox input {
+  position: absolute;
+  opacity: 0;
+}
+
+.form-checkbox .checkmark {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.form-checkbox .checkmark::after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 5px;
+  width: 6px;
+  height: 10px;
+  border: 1px solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  display: none;
+}
+
+.form-checkbox input:checked ~ .checkmark::after {
+  display: block;
+}
+
+/*SPANS*/
+
+.span-orange {
+  color: var(--main-orange);
+}
+
+.span-blue {
+  color: var(--main-blue);
+  font-weight: bold;
+}
+
+.span-orange2 {
+  color: var(--main-orange);
+  font-size: 50px;
+}
+
+.span-white-price {
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.span-blue-price {
+  color: var(--main-blue);
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.span-curriculum-white {
+  font-weight: bold;
+}
+
+/*BUTTONS*/
+.button-white {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  color: var(--main-blue);
+  cursor: pointer;
+}
+
+.button-white:hover {
+  background-color: var(--main-orange);
+  color: white;
+}
+
+.button-orange {
+  background-color: var(--main-orange);
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  width: 60%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button-orange:hover {
+  background-color: white;
+  color: var(--main-blue);
+}
+
+.button-orange2 {
+  background-color: var(--main-orange);
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 20px;
+  width: 35%;
+  color: white;
+  font-weight: bold;
+  color: white;
+}
+
+.button-orange2:hover {
+  background-color: white;
+  color: var(--main-blue);
+}
+
+.button-orange3 {
+  background-color: var(--main-orange);
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 20px;
+  width: 25%;
+  color: white;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.button-orange3:hover {
+  background-color: white;
+  color: var(--main-blue);
+}
+
+.button-orange4 {
+  background-color: var(--main-orange);
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 20px;
+  width: 30%;
+  color: white;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.button-orange4:hover {
+  background-color: var(--main-blue);
+  color: white;
+}
+
+.whats {
+  position: fixed;
+  bottom: 75px;
+  right: 50px;
+  z-index: 9999;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .header img {
+    margin-bottom: 20px;
+  }
+
+  .main {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .button-orange {
+    width: 90%;
+  }
+
+  .content-main-img img {
+    width: 20rem;
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .content-info {
+    padding: 0;
+  }
+
+  .content-info h1 {
+    width: 100%;
+  }
+
+  .content-info-child {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .content-info-child p {
+    font-size: 20px;
+  }
+
+  .content-info-child-text1,
+  .content-info-child-text2 {
+    width: 100%;
+  }
+
+  .button-orange2 {
+    width: 80%;
+  }
+
+  .content-people {
+    padding: 0;
+  }
+
+  .curriculum-container {
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+
+  .button-orange3 {
+    width: 80%;
+    margin: 31px auto;
+  }
+
+  .about-fafiltec {
+    padding: 30px;
+  }
+
+  .about-fafiltec-text {
+    width: 100%;
+  }
+
+  .button-orange4 {
+    width: 90%;
+    margin: 40px auto;
+  }
+
+  .about-fafiltec-table {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-fafiltec-table p {
+    width: 80%;
+  }
+
+  .form-subscribe {
+    width: 88%;
+  }
+
+  .whats {
+    right: 20px;
+  }
+}
